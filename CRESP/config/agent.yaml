@@ -1,0 +1,9 @@
+cresp:
+  data_aug: 'shift'
+  agent_params:
+    image_pad: 4
+    cf_config: 'r1-k256' # 'minCF_r1-k256'
+    temperature: 0.1
+    rs_discount: 0.8
+  algo_params:
+    cfun: True
